@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Belanosima';
+    src: url('../fonts/Belanosima-Regular.ttf') format('truetype');
+}
+
+html {
+    background-color: #77ccff;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+    border: 2px solid gray;
+    background-color: white;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.image-container{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.image-container img{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.image-source{
+    text-align: center;
+}
